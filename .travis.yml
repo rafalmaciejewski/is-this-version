@@ -1,0 +1,33 @@
+sudo: false
+dist: trusty
+
+language: node_js
+node_js:
+- "10"
+- "9"
+- "8"
+- "7.6.0"
+
+jobs:
+  include:
+  - stage: test
+    name: test
+    script: npm test
+    if: branch != master
+  - stage: test
+    name: coverage
+    script: npm run coveralls
+    if: branch = master
+  - stage: deploy
+    name: npm
+    script: echo "Deploying to npm ..."
+    deploy:
+      provider: npm
+      email: $NPM_EMAIL
+      api_key: $NPM_TOKEN
+      tag: latest
+      on:
+        tags: true
+stages:
+- test
+- deploy
