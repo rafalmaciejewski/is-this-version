@@ -8,6 +8,10 @@ node_js:
 - "8"
 - "7.6.0"
 
+cache:
+  directories:
+  - "node_modules"
+
 jobs:
   include:
   - stage: test
@@ -30,4 +34,4 @@ jobs:
 stages:
 - test
 - name: deploy
-  if: tag = true
+  if: tag IS present

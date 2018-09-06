@@ -23,7 +23,7 @@ $ npm install -g is-this
 
 ## Usage
 
-If installed globally, `is-this` will be available as a cli command. This command should be run from a root directory of a project to be verified.
+If installed globally, `is-this` will be available as a cli command. This command should be executed from a root directory of a project to be verified.
 
 Only argument that needs to passed is a version number.
 
