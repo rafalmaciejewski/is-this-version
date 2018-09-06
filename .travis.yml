@@ -31,4 +31,3 @@ stages:
 - test
 - name: deploy
   if: tag = true
-

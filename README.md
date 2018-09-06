@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/is-this.svg)](https://badge.fury.io/js/is-this)
 [![Build Status](https://travis-ci.com/rafalmaciejewski/is-this.svg?branch=master)](https://travis-ci.com/rafalmaciejewski/is-this)
-[![Dependencies](https://img.shields.io/david/rmaciejewski/is-this.svg?style=flat-square)](https://david-dm.org/rmaciejewski/is-this)
+[![Dependencies](https://img.shields.io/david/rafalmaciejewski/is-this.svg?style=flat-square)](https://david-dm.org/rafalmaciejewski/is-this)
 [![Coverage Status](https://coveralls.io/repos/github/rafalmaciejewski/is-this/badge.svg?branch=master)](https://coveralls.io/github/rafalmaciejewski/is-this?branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
