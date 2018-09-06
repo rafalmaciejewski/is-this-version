@@ -1,5 +1,5 @@
 {
-  "name": "is-this",
+  "name": "is-this-version",
   "version": "0.1.0",
   "description": "CLI tool that verifies npm package version",
   "keywords": [
