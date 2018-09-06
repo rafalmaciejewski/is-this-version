@@ -20,7 +20,6 @@ jobs:
     if: branch = master
   - stage: deploy
     name: npm
-    script: echo "Deploying to npm ..."
     deploy:
       provider: npm
       email: $NPM_EMAIL
@@ -30,4 +29,6 @@ jobs:
         tags: true
 stages:
 - test
-- deploy
+- name: deploy
+  if: tag = true
+
