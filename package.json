@@ -5,13 +5,13 @@
   "keywords": [
     "cli"
   ],
-  "homepage": "https://github.com/rafalmaciejewski/is-this#readme",
+  "homepage": "https://github.com/rafalmaciejewski/is-this-version#readme",
   "bugs": {
-    "url": "https://github.com/rafalmaciejewski/is-this/issues"
+    "url": "https://github.com/rafalmaciejewski/is-this-version/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafalmaciejewski/is-this.git"
+    "url": "git+https://github.com/rafalmaciejewski/is-this-version.git"
   },
   "license": "MIT",
   "author": "Rafał Maciejewski",
