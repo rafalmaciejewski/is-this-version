@@ -1,6 +1,6 @@
 {
   "name": "is-this-version",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool that verifies npm package version",
   "keywords": [
     "cli"
@@ -23,8 +23,8 @@
     "test:cov": "jest --coverage"
   },
   "dependencies": {
-    "chalk": "^2.4.2",
-    "commander": "^4.0.1",
+    "chalk": "^3.0.0",
+    "commander": "^3.0.1",
     "node-emoji": "^1.10.0",
     "pjson": "^1.0.9"
   },
