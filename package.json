@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "chalk": "^3.0.0",
-    "commander": "^3.0.1",
+    "commander": "^4.1.0",
     "node-emoji": "^1.10.0",
     "pjson": "^1.0.9"
   },
