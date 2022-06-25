@@ -31,7 +31,7 @@
   "devDependencies": {
     "coveralls": "^3.0.6",
     "jest": "^26.1.0",
-    "jest-mock-console": "^1.0.0",
+    "jest-mock-console": "^2.0.0",
     "jest-mock-process": "^1.2.0"
   },
   "engines": {
