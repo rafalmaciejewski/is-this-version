@@ -23,7 +23,7 @@
     "test:cov": "jest --coverage"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
+    "chalk": "^5.2.0",
     "commander": "^7.2.0",
     "node-emoji": "^1.10.0",
     "pjson": "^1.0.9"
